@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frg1_menu"
+            android:src="@drawable/ic_baseline_menu_24"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="left|center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY PROFILE"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frg1_edit"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="right|center_vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardCornerRadius="50dp"
+            android:layout_gravity="center_vertical"
+            android:elevation="8dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_frg1"
+                android:clickable="true"
+                android:background="@drawable/ic_baseline_person_24"
+                android:scaleType="fitCenter"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name_frg1"
+                android:layout_marginBottom="2dp"
+                android:hint="Name"
+                android:paddingStart="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_profession_frg1"
+                android:layout_marginBottom="2dp"
+                android:hint="Profession"
+                android:paddingStart="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/darker_gray"
+                android:gravity="start"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="PRIMARY DETAILS"
+        android:paddingStart="40dp"
+        android:padding="5dp"
+        android:background="@android:color/darker_gray"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:gravity="start"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_bio_frg1"
+        android:text="Bio"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_email_frg1"
+        android:text="Email"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_website_frg1"
+        android:text="Website"
+        android:clickable="true"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:drawablePadding="20dp"
+        android:paddingStart="20dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Followers"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_baseline_people_24"
+            android:id="@+id/tv_followers_frg1"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posts"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_baseline_image_24"
+            android:id="@+id/tv_Posts_frg1"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Story"
+        android:id="@+id/tv_add_story_frg1"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/border_deco"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_send_msg_frg1"/>
+
+
+</LinearLayout>

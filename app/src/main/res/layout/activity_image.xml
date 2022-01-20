@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context=".ImageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/tv_name_image"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/iv_image"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT"
+        android:id="@+id/btn_edit_image"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:id="@+id/btn_delete_image"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+
+
+
+</LinearLayout>

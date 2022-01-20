@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/background_custom_reply.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/custom_input_question.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/ic_baseline_turned_in_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/drawable/ic_baseline_turned_in_not_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_answer.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_ask.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_create_profile.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_image.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_main.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_post.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_privacy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_related.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_reply.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_splashscreen.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_update_profile.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/activity_your_questions.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/answer_layout.xml" value="0.3451086956521739" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/bottom_sheet_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/bottom_sheet_menu_frg2.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/fragment1.xml" value="0.2341485507246377" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/fragment2.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/fragment4.xml" value="0.3401268115942029" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/question_item.xml" value="0.360054347826087" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/related_item.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/user/Desktop/SocialMedia/app/src/main/res/layout/your_question_item.xml" value="0.35507246376811596" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
